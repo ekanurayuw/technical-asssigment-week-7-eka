@@ -1,0 +1,40 @@
+ mkdir Eka
+ cd Eka
+ mkdir sekolah
+ mkdir kerja
+ cd sekolah
+ touch ijazah.txt
+ sudo nano ijazah.txt
+ Perkenalkan namaku Eka
+Aku berasal dari Madiun
+Salam kenal :D 
+ctrl x, y, enter
+ cat ijazah.txt
+ touch portofolio.txt
+ sudo nano portofolio.txt
+ Saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah
+
+-PT.Angkasa
+-PT.Bulan
+-PT.Bintang
+ctrl x, y, enter
+ cd ..
+ cd kerja
+ touch cv.txt
+ sudo nano cv.txt
+ Salam,
+
+Perkenalkan namaku Eka, saya memiliki kegemaran
+
+-Olahraga
+-Membaca
+-Nonton
+ctrl x, y, enter
+ cd ..
+ cd sekolah
+ mv portofolio.txt /home/pi/Eka/kerja
+ ls
+ cd ..
+ cd kerja
+ ls
+
